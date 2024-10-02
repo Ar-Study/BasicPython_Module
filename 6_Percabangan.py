@@ -1,21 +1,24 @@
+
+
+
 # Sistem Penilaian Siswa
 
 # Meminta pengguna untuk memasukkan nilai ujian
-# nilai = int(input("Masukkan nilai ujian siswa (0-100): "))
+nilai = float(input("Masukkan nilai ujian siswa (0-100): "))
 
 # Percabangan untuk menentukan nilai huruf berdasarkan rentang nilai
-# if nilai >= 90 & nilai <= 100:
-#     print("A")
-# elif nilai >= 80 & nilai < 90:
-#     print("B")
-# elif nilai >= 70 & nilai < 80:
-#     print("C")
-# elif nilai >= 60 & nilai < 70:
-#     print("D")
-# elif nilai >= 0 & nilai < 60:
-#     print("F")
-# else:
-#    print("Tidak Valid")
+if nilai >= 90.00 and nilai <= 100.00 :
+    print("A")
+elif nilai >= 80 & nilai < 90:
+    print("B")
+elif nilai >= 70 & nilai < 80:
+    print("C")
+elif nilai >= 60 & nilai < 70:
+    print("D")
+elif nilai >= 0 & nilai < 60:
+    print("F")
+else:
+   print("Tidak Valid")
 
 # Menampilkan hasil nilai huruf kepada pengguna
 # if grade != "Nilai tidak valid":
@@ -27,14 +30,14 @@
 # Percabangan
 # if
 # a = 2
-# b=2
-# # if a < b :
-#     print ("Benar")
+# b = 2
+# if a < b :
+#     print("Benar")
 
 # (a < b)? print("Benar") : print("Salah")
 # # if else
 # if a < b :
-#     print ("Benar")
+    # print ("Benar")
 # else :
 #     print("Salah")
 # # if elif else

@@ -1,3 +1,11 @@
+# Input
+# nilai = int(input("Masukan : "))
+# nilaii = int(input("Masukan angka : "))
+# hasilsisa = nilai % nilai
+# print(type(nilai))
+
+
+
 # Operator Aritmatik
 # print(10 + 10) # Penjumlahan
 # print(10 -10) # Pengurangan
@@ -6,17 +14,18 @@
 # print (20 ** 20) # Perpangkatan
 
 # Operator Relasional atau Pembanding
-# x = 5
-# y = 10
+x = 5
+y = 10
 
-# print(x == y)
-# print(x != y)
+# print(x == y) 
+# print(x !=  y)
 # print(x > y)
 # print(x < y)
 # print(x >= y)
 # print(x <= y)
 
 # Operator Logika
+# print((x == y) or (x !=  y))
 # print(True and True)
 # print(True or False)
 # print(not True)
@@ -76,7 +85,7 @@
 # print ("a >> b = %s" % c)
 
 # Operator Ternary
-umur = int(input("berapa umur kamu? "))
-aku = "bocah" if umur < 10 else "dewasa"
-# aku = (umur < 10) ? "bocah" : "dewasa"
-print(aku)
+# umur = int(input("berapa umur kamu? "))
+# aku = "bocah" if umur < 10 else "dewasa"
+# # aku = (umur < 10) ? "bocah" : "dewasa"
+# print(aku)
