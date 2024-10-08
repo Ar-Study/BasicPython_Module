@@ -1,10 +1,12 @@
 # Mambuat Tupple Kosong
 # kosong = ()
+# list = []
+
 
 # # Membuat Tupple
 # satu = ('Isinya',)
-# # print(type(satu))
-# nama = ('petani', 'kode', 'linux')
+# print(type(satu))
+nama = ('petani', 'kode', 'linux')
 
 # # Jika tanpa koma, akan dianggap string
 # satu = ('isinya') # <-- ini string
@@ -18,6 +20,6 @@
 # print(web[1:2])
 
 # Mengambil Panjang Tupple
-# hari = ('Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu', 'Minggu')
-# print("Jumlah hari: %d" % len(hari))
+hari = ('Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu', 'Minggu')
+print(len(hari))
 
